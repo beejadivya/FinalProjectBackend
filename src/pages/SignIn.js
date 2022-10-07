@@ -174,7 +174,8 @@ const SignIn = () => {
                 <div className="forgot">
                 
                  {/* <button type="submit" class="btn btn-outline-secondary my-2  text-center mr-2 " onClick={redirectforgot}>forgot password</button><br></br>  */}
-                 <Link to="/Contact">Forgot Password</Link>
+                 <Link to="/Contact">Forgot Password?</Link><br></br>
+                 <Link to="/Contact">Reset Password?</Link>
                  </div>
                 
                 </form>

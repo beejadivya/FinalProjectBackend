@@ -183,7 +183,7 @@ const SignUp = () => {
             (response) => {
                 
                 console.log(response);
-                alert("user Added Successfully");
+                alert("Registered Successfully");
                 if (response.status==200) {
                     console.log("navigating");
                     navigate('/sign-in');
